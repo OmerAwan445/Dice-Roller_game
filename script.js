@@ -192,16 +192,6 @@ console.log(`An event happened, on average, every ${90/gameEvents.size} minutes`
  } 
 
 
-
-
-
-
-
-
-
-
-
-
 // ---------Guess Number Game Using maps 
 
 // let guess=new Map([
@@ -216,36 +206,3 @@ console.log(`An event happened, on average, every ${90/gameEvents.size} minutes`
 
 
 // */
-
-// ---------Copying objects---------
-// const omerDetails={
-// age:20,
-// lastName: "Awan",
-// family:['Haris','Atif'],
-// };
-// const hasnatDetails={...omerDetails};
-// hasnatDetails.family.push('Abdullah','Abubakar');
-// console.log(omerDetails);
-// console.log(hasnatDetails);         
-//  object is copied without reference but object in object(Array in object) is still not copied without reference so changing an array in one object will cause a change in other object..
-
-
-
-
-// --------Destructuring-----------
-
-//    let test1=(x,y)=>{
-//     console.log("Test ",x1,y1);
-//     return ['Omer','Awan'];
-// }
-
-// let [value1,value2]=test();
-// console.log(value1,value2);
-
-// let stringVal=['Omer','Awan'];
-// let [a,b]=stringVal;
-// console.log(a,b); 
-
-// let nested=[2,3,[4,5]];
-// let [x, ,[y,z]]=nested;
-// console.log(x,y,z);
